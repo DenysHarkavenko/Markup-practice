@@ -10,10 +10,10 @@
     --notation-color: #6c757d;
 }
 
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 
 body{
     font-family: 'Lato', sans-serif;
@@ -125,12 +125,12 @@ form{
     height: auto;
 }
 
-#email-form{
+.email-form{
     display: flex;
     justify-content: center;
 }
 
-#field{
+.field{
     min-height: calc(1.5em + 2rem + 2px);
     padding: 1rem 1.25rem;
     font-size: 1.25rem;
@@ -140,17 +140,17 @@ form{
     margin-right: 12px;
 }
 
-#form-field{
+.form-field{
     width: 100%;
     margin: 0 12px 0 12px;
 }
 
-#form-btn{
+.form-btn{
     width: 128px;
     margin: 0 12px 0 12px;
 }
 
-#btn{
+.btn{
     border-radius: 0.5rem;
     border: none;
     width: 100%;
@@ -162,7 +162,7 @@ form{
     font-size: 1.25rem;
 }
 
-#field:focus {
+.field:focus {
     outline: 3px solid var(--main-light);
 }
 
